@@ -22,3 +22,9 @@
         
         
  # Hit the api and internet should be in working state. You will get the output of that api.
+ 
+ # Methodology
+   - I have used cheerio and puppeteer npm module to scrap the hotel prices from the link.
+   - First of all I have used puppeteer which will launch  url in the browser and get the html of that page.
+   - Cheerio is used because we have load the html in cheerio and we can work on the html like we do work in jquery.
+   - Now just I have get the data from the browser based on the class and get the data which we want to show in the response.
